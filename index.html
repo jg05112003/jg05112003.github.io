@@ -96,23 +96,33 @@
 
          <hr>
          <h2 id="newsletter">Sign up for our newsletter!</h2>
+     <div class="form-container">
         <form action="" method="get">
+        <div class="form-group">
             <label for="first_name">First Name:</label>
             <input type="text" id="first_name" name="first_name" required> 
             <br>
-
+        </div>
+      
+        <div class="form-group">
             <label for="last_name">Last Name:</label>
             <input type="text" id="last_name" name="last_name" required> 
             <br>
+        </div>
 
+        <div class="form-group">
             <label for="email">Email:</label>
             <input type="email" name="email" id="email" required>
             <br>
+        </div>
 
+        <div class="form-group">
             <label for="password">Password</label>
             <input type="password" name="password" id="password" required>
             <br>
+        </div>
 
+        <div class="form-group" id="animal">
             <label for="favourite_animal">Favourite Animal:</label>
             <input type="radio" name="favourite_animal" id="dog" value="dog">
             <label for="dog">Dog</label>
@@ -123,7 +133,9 @@
             <input type="radio" name="favourite_animal" id="gengar" value="gengar">
             <label for="gengar">Gengar</label>
             <br>
+        </div>
 
+        <div class="form-group">
             <label for="country">Country:</label>
             <select name="country" id="country">
                 <option value="england">England</option>
@@ -132,17 +144,14 @@
                 <option value="northern_ireland">Northern Ireland</option>
             </select>
             <br>
-                
-            <label for="bio">Biography:</label>
-            <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
-            <br>
-
+        </div>
             <input type="checkbox" name="subscribe" id="subscribe">
             <label for="subscribe">Subscribe to our newsletter!</label>
             <br>
 
             <input type="submit" value="Submit">
-        </form>         
+        </form>
+    </div>       
         <hr>
     </main>
     <footer>

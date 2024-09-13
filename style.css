@@ -1,12 +1,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0%;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
+    background-color: #ffffec;
 }
 
 body > header {
-    background-color:rgb(130, 172, 250);
-    color: rgb(121, 218, 218);
+    background: #597e52;
+    color: #f1e4c3;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -18,11 +19,12 @@ body > header > nav > ul {
 }
 
 .navbutton {
-    color: rgb(121, 218, 218);
+    color: #f1e4c3;
     text-decoration: none;
     padding: 12px;
-    border: 0.5px solid rgb(121, 218, 218);
+    border: 0.5px solid #f1e4c3;
     border-radius: 5%; 
+    text-shadow:  0.5px 0.5px #c6a969, -0.5px -0.5px #c6a969;
 }
 
 #nav-ul {
@@ -50,7 +52,7 @@ body > main article {
 }
 
 body > footer {
-    background-color: rgb(130, 172, 250);
+    background-color: #597e52;
     display: flex;
 }
 
@@ -58,34 +60,88 @@ body > footer {
     margin: 0px;
     padding: 8px;
     font-family: "alfa slab one regular";
-    text-shadow:  0.5px 0.5px white, -0.5px -0.5px white;
+    text-shadow:  0.8px 0.8px #c6a969, -0.8px -0.8px #c6a969;
 }
 
 ul {
     margin: 0px;
 }
 
+hr {
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
 #newsletter {
     text-align: center;
-    background-color: rgb(130, 172, 250);
     margin: 0px;
-    color: rgb(121, 218, 218);
+    color: #f1e4c3;
     font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    background-color: #597e52;
+    margin-bottom: 3%;
 }
 
 h2 {
     margin: 0px;
-    text-align: center;
-    font-family:"Fredoka One";
-    color: rgb(121, 218, 218);
+    text-align: left;
+    font-family:"alfa slab one regular";
+    color: #f1e4c3;
+    padding-top: 15px;
+    text-shadow:  0.5px 0.5px #c6a969, -0.5px -0.5px #c6a969;
 }
 
-form {
+.form-container {
+    background-color: #f1e4c3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
     text-align: center;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+#animal {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input[type="radio"] {
+    transform: scale(0.60);
+    margin-right: 5px
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 100px;
 }
 
 img {
     border-radius: 10%;
+}
+
+footer > h2 {
+    margin-left: 5%;
 }
 
 #footer-ul {
@@ -94,10 +150,10 @@ img {
 }
 
 #footer-ul > div > li {
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 #footer-ul > div > li > a {
     text-decoration: none;
-    color: rgb(121, 218, 218); 
+    color: #f1e4c3
 }
